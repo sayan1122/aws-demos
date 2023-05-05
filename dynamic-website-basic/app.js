@@ -43,4 +43,4 @@ app.post('/share-opinion', async function (req, res) {
   res.redirect(`/topics/${topicId}`);
 });
 
-app.listen(3000);
+app.listen(80);
